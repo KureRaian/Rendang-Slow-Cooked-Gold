@@ -1,11 +1,15 @@
-# food-picture-01: Rendang, Dark and Glossy
+# Rendang, Slow-Cooked Gold
 
-Entry for make.fun's food-picture-01: the best-looking food picture.
+A food-picture-01 entry: a close photograph of Indonesian beef
+rendang, dark and glossy, served with steamed white rice.
 
-The program copies the bundled photograph of Indonesian beef rendang
--- dark caramelised beef chunks glistening in thick coconut curry
-sauce, served with steamed white rice -- to the output directory as
-`entry.png`.
+## The dish
+
+Rendang is beef simmered for hours in coconut milk with lemongrass,
+galangal, turmeric, chillies and toasted coconut, until the sauce
+reduces down to a dark, glossy glaze that clings to every piece.
+What is left is meat so tender it falls apart, coated in a
+caramelised spice paste — rich, fragrant, and deeply savoury.
 
 ## Run
 
@@ -13,8 +17,5 @@ sauce, served with steamed white rice -- to the output directory as
 python3 main.py
 ```
 
-It writes `entry.png` to `$MAKEFUN_OUTPUT_DIR`, or to `/output` when
-that variable is not set. The image is a real PNG, 832x832 pixels,
-under the competition's 1 MiB cap, so the program only copies bytes
-after checking the size, the PNG magic, the dimensions and the
-trailing IEND chunk.
+It writes `entry.png` to `$MAKEFUN_OUTPUT_DIR`, or to `/output`
+when that variable is not set.
